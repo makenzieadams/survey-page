@@ -1,0 +1,72 @@
+<html>
+
+<body bgcolor="cyan">
+    <center>
+        <h1 id="title">Survey</h1>
+        <p id="description">Survey About Animals</p>
+
+        <br />
+        <br />
+        <br />
+        <form id="survey-form">
+            <label id="name-label" for="name">Enter Your Name:</label>
+            <input type="text" placeholder="Name" id="name" required>
+            <br />
+            <br />
+            <br />
+            <label id="email-label" for="email">Email</label>
+            <input type="email" placeholder="Email" id="email" required>
+            <br />
+            <br />
+            <br />
+            Female: <input type="radio" value="female" name="sex">
+            Male: <input type="radio" value="male" name="sex">
+            Other: <input type="radio" value="other" name="sex">
+            <br />
+            <br />
+            <br />
+            Age:
+            <select name="age" id="dropdown">
+                <option>Under 10</option>
+                <option>11-15</option>
+                <option>16-20</option>
+                <option>21-25</option>
+                <option>26-30</option>
+                <option>31-35</option>
+                <option>36-40</option>
+                <option>41-45</option>
+                <option>46-50</option>
+                <option>51-55</option>
+                <option>56-60</option>
+                <option>Over 60</option>
+
+            </select>
+            <br />
+            <br />
+            <label id="number-label" for="number">How Many Animals Do You Have?</label>
+            <input type="number" placeholder="Number" id="number" required max="5" min="1">
+            <br />
+            <br />
+            <br />
+            Select your favorite animals. Select as many as you would like:
+            <br />
+            <br />
+            Dog <input type="checkbox" name="fave" value="Dog">
+            Cat <input type="checkbox" name="fave" value="Cat">
+            Lion <input type="checkbox" name="fave" value="Lion">
+            Tiger <input type="checkbox" name="fave" value="Tiger">
+            Bear <input type="checkbox" name="fave" value="Bear">
+            <br />
+            <br />
+            <br />
+            Please write your comment about the questions below:
+            <br />
+            <textarea name="comment" rows="10" cols="60">
+                </textarea>
+            <br />
+            <button id="submit" type="submit" value="submit">Submit</button>
+        </form>
+    </center>
+</body>
+
+</html>
